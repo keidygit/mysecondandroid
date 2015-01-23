@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:background="@android:drawable/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_toRightOf="@+id/imageView1"
+        android:ems="10"
+        android:hint="@string/phone1"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toLeftOf="@+id/editText1"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ImageView01"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ImageView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageView03"
+        android:layout_toLeftOf="@+id/editText1"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ImageView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageView04"
+        android:layout_toLeftOf="@+id/editText1"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ImageView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageView05"
+        android:layout_toLeftOf="@+id/editText1"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ImageView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageView06"
+        android:layout_toLeftOf="@+id/editText1"
+        android:src="@drawable/ic_launcher" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:background="@android:drawable/edit_text"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ImageView02"
+        android:layout_toRightOf="@+id/ImageView01"
+        android:ems="10"
+        android:hint="@string/phone1" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:background="@android:drawable/edit_text"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageView02"
+        android:layout_toRightOf="@+id/ImageView02"
+        android:ems="10"
+        android:hint="@string/phone1" />
+
+    <EditText
+        android:id="@+id/EditText03"
+        android:background="@android:drawable/edit_text"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageView03"
+        android:layout_toRightOf="@+id/ImageView03"
+        android:ems="10"
+        android:hint="@string/phone1" />
+
+    <EditText
+        android:id="@+id/EditText04"
+        android:background="@android:drawable/edit_text"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ImageView05"
+        android:layout_toRightOf="@+id/ImageView04"
+        android:ems="10"
+        android:hint="@string/phone1" />
+
+    <EditText
+        android:id="@+id/EditText05"
+        android:background="@android:drawable/edit_text"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageView05"
+        android:layout_toRightOf="@+id/ImageView05"
+        android:ems="10"
+        android:hint="@string/phone1" />
+
+    <EditText
+        android:id="@+id/EditText06"
+        android:background="@android:drawable/edit_text"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageView06"
+        android:layout_toRightOf="@+id/ImageView06"
+        android:ems="10"
+        android:hint="@string/phone1" />
+
+    <EditText
+        android:id="@+id/EditText07"
+        android:background="@android:drawable/edit_text"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageView07"
+        android:layout_toRightOf="@+id/ImageView07"
+        android:ems="10"
+        android:hint="@string/phone1" />
+
+    <ImageView
+        android:id="@+id/ImageView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/EditText04"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

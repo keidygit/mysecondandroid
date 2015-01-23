@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">凯虹GSM</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">你好!</string>
+    <string name="phone1">请输入电话号码</string>
+    <string name="buttonname1">添加主机</string>
+    <string name="buttonname2">编辑</string>
+    <string name="option1">存储电话号码</string>
+
+</resources>
